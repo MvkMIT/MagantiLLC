@@ -44,7 +44,7 @@ export default function Hero() {
             <Button
               size="lg"
               variant="outline"
-              className="border-slate-600 text-white hover:bg-white hover:text-slate-900 px-8 py-4 rounded-xl font-medium backdrop-blur-sm transition-all duration-300"
+              className="border-slate-600 text-slate-600 hover:bg-white hover:text-slate-900 px-8 py-4 rounded-xl font-medium backdrop-blur-sm transition-all duration-300"
             >
               Learn More
             </Button>

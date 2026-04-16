@@ -151,12 +151,6 @@ npm run dev
 }
 ```
 
-## 🌐 Deployment
-
-The website is deployed on Netlify with automatic deployments from the main branch.
-
-- **Live URL**: https://maganti-group.netlify.app
-- **Repository**: https://github.com/MvkMIT/MagantiLLC.git
 
 ## 📧 Development
 
