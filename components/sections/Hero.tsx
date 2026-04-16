@@ -2,47 +2,49 @@ import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center">
+    <section className="relative min-h-screen flex items-center justify-center">
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1920)',
+          backgroundImage: 'url(https://images.pexels.com/photos/1571467/pexels-photo-1571467.jpeg?auto=compress&cs=tinysrgb&w=1920)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-slate-900/40" />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/90 via-blue-900/70 to-slate-900/90" />
       </div>
 
       <div className="container mx-auto px-6 relative z-10 pt-20">
-        <div className="max-w-2xl">
-          <div className="inline-block">
-            <span className="bg-orange-500 text-white text-xs font-semibold px-3 py-1 rounded">
-              INFORMATION TECHNOLOGY SOLUTIONS
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="mb-8">
+            <span className="inline-block px-4 py-2 bg-blue-500/10 border border-blue-400/30 text-blue-300 text-sm font-medium rounded-full backdrop-blur-sm">
+              Innovation Meets Excellence
             </span>
           </div>
-
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mt-6 leading-tight">
+          
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-light text-white mb-6 leading-tight tracking-tight">
             Welcome to
             <br />
-            <span className="text-orange-500">Maganti Group</span>
+            <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+              Maganti Group
+            </span>
           </h1>
 
-          <p className="text-slate-300 text-lg mt-6 leading-relaxed max-w-xl">
-            Empowering global enterprises through strategic IT solutions, specialized talent acquisition, and innovative technology partnerships that drive digital transformation.
+          <p className="text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto mb-12 font-light">
+            Transforming businesses through cutting-edge technology solutions and strategic talent partnerships
           </p>
 
-          <div className="flex flex-wrap gap-4 mt-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               size="lg"
-              className="bg-orange-500 hover:bg-orange-600 text-white px-8"
+              className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-xl font-medium shadow-xl shadow-blue-500/25 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/30"
             >
-              Explore More
+              Get Started
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-slate-900"
+              className="border-slate-600 text-white hover:bg-white hover:text-slate-900 px-8 py-4 rounded-xl font-medium backdrop-blur-sm transition-all duration-300"
             >
               Learn More
             </Button>
