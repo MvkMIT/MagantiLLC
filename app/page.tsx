@@ -5,13 +5,11 @@ import Expertise from '@/components/sections/Expertise';
 import Technology from '@/components/sections/Technology';
 import Jobs from '@/components/sections/Jobs';
 import Contact from '@/components/sections/Contact';
-import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
-      <Header />
       <Hero />
       <About />
       <Team />

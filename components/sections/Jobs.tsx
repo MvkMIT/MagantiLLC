@@ -25,17 +25,13 @@ export default function Jobs() {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-3xl mb-8 shadow-lg shadow-blue-500/25">
-              <Briefcase className="w-10 h-10 text-white" />
-            </div>
 
             <span className="inline-block px-4 py-2 bg-blue-100 text-blue-700 text-sm font-semibold rounded-full mb-6">
               Career Opportunities
             </span>
             
             <h2 className="text-5xl md:text-6xl font-bold text-slate-900 leading-tight tracking-tight mb-6">
-              Featured
-              <br />
+              Featured{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">
                 Jobs Post
               </span>

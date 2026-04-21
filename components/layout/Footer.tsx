@@ -35,13 +35,10 @@ export default function Footer() {
               Empowering businesses worldwide through innovative technology solutions and strategic IT services that drive digital transformation.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-slate-800/50 hover:bg-blue-600 p-3 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/25 backdrop-blur-sm border border-slate-700/50 hover:border-blue-500/50">
+              <a href="https://www.linkedin.com/in/maganti-group-llc-we-serve-you-grow-96ba561a2/" target="_blank" rel="noopener noreferrer" className="bg-slate-800/50 hover:bg-blue-600 p-3 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/25 backdrop-blur-sm border border-slate-700/50 hover:border-blue-500/50">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-slate-800/50 hover:bg-blue-600 p-3 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/25 backdrop-blur-sm border border-slate-700/50 hover:border-blue-500/50">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="bg-slate-800/50 hover:bg-blue-600 p-3 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/25 backdrop-blur-sm border border-slate-700/50 hover:border-blue-500/50">
+              <a href="https://www.facebook.com/Maganti-Group-LLC-1720121608231717/" target="_blank" rel="noopener noreferrer" className="bg-slate-800/50 hover:bg-blue-600 p-3 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/25 backdrop-blur-sm border border-slate-700/50 hover:border-blue-500/50">
                 <Facebook className="w-5 h-5" />
               </a>
             </div>

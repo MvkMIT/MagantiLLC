@@ -25,14 +25,12 @@ export default function Technology() {
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="space-y-12">
             <div>
-              <span className="inline-block px-4 py-2 bg-blue-500/20 border border-blue-400/30 text-blue-300 text-sm font-semibold rounded-full mb-6 backdrop-blur-sm">
+              <span className="inline-block px-4 py-2 bg-blue-500/20 border border-blue-400/30 text-blue-400 text-sm font-semibold rounded-full mb-6 backdrop-blur-sm">
                 Technology Innovation
               </span>
               <h2 className="text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight">
-                Transforming Business with
-                <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-                  Technology Innovations
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
+                  Technology Solutions
                 </span>
               </h2>
             </div>
@@ -44,11 +42,11 @@ export default function Technology() {
             <div className="space-y-8">
               {innovations.map((item, index) => (
                 <div key={index} className="group flex items-start space-x-6 p-6 rounded-2xl bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 hover:bg-slate-800/70 hover:border-blue-500/30 transition-all duration-300">
-                  <div className="bg-gradient-to-br from-blue-500 to-blue-600 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 text-2xl shadow-lg shadow-blue-500/25 group-hover:scale-110 transition-transform duration-300">
+                  <div className="bg-gradient-to-br from-blue-600 to-cyan-500 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 text-2xl shadow-lg shadow-blue-600/25 group-hover:scale-110 transition-transform duration-300">
                     {item.icon}
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-white font-bold text-xl mb-3 group-hover:text-blue-300 transition-colors duration-300">
+                    <h3 className="text-white font-bold text-xl mb-3 group-hover:text-cyan-400 transition-colors duration-300">
                       {item.title}
                     </h3>
                     <p className="text-slate-400 leading-relaxed font-light">
@@ -62,7 +60,7 @@ export default function Technology() {
           </div>
 
           <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
             <div
               className="relative rounded-3xl overflow-hidden shadow-2xl transform transition-transform duration-300 group-hover:scale-[1.02]"
               style={{
@@ -75,13 +73,13 @@ export default function Technology() {
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent" />
 
               <div className="absolute bottom-8 left-8 right-8">
-                <div className="bg-gradient-to-r from-blue-600 to-cyan-600 p-8 rounded-2xl shadow-2xl backdrop-blur-sm">
+                <div className="bg-gradient-to-r from-blue-600 to-cyan-500 p-8 rounded-2xl shadow-2xl backdrop-blur-sm">
                   <div className="flex items-start justify-between mb-4">
                     <div>
                       <h3 className="text-white font-bold text-2xl mb-2">
                         Certification Rate
                       </h3>
-                      <p className="text-blue-100 text-sm">
+                      <p className="text-cyan-100 text-sm">
                         Industry-leading excellence
                       </p>
                     </div>
